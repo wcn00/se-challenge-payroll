@@ -1,0 +1,27 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Wave Analytics Timesheet</title>
+    <meta name="wave timesheet testing" content="Wae Timesheets">
+    <meta name="wcn00" content="wcn.org">
+
+    <link rel="stylesheet" href="static/style.css?v=1.0">
+
+</head>
+
+<body>
+    <h2>Wave Analytics Timesheet Reporting</h2>
+
+    <form action="http://localhost:8099/upload" method="POST" enctype="multipart/form-data">
+        <label for="timesheet">Select a timesheet file to upload:</label><br>
+        <input type="file" name="file" />
+        <input type="submit" name="submit" value="Submit" />
+    </form>
+
+</body>
+
+</html>
